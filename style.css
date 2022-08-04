@@ -35,13 +35,16 @@ body{
     color:#ffffff
 }
 .profile_selection{
+    max-width: 700px;
     display: flex;
     justify-content: center;
     flex-direction: row;
     align-items: center;
-    gap: 25px;
+    flex-wrap: wrap;
+    gap: 18px;
 }
 .profile_id{
+    width: 160px;
     display: flex;
     justify-content: center;
     flex-direction: column;
