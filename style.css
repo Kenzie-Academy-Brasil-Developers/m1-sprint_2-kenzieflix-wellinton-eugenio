@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 body{
-    background-color: black;
+    background-color: #121212;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 .cabecalho{
     width: 100%;
@@ -47,27 +48,42 @@ body{
     align-items: center;
 }
 .profile_img{
-    width: 160px;
-    height: 160px;
+    width: 163px;
+    height: 163px;
+    display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 5%;
-    border: solid;
     background-color: #1a1919;
-
+    border-radius: 6%;
+    margin: 10px;
+}
+.profile_img:hover{
+    border: 2px solid white;
+    transition: 0.1s ease;
+}
+.profile-img{
+   object-fit: cover;
+   border-radius: 6%;
 }
 .Profile_name{
-    margin-top: 35px;
     margin-bottom: 60px;
     color: #ffffff;
 }
-.mananger_profiles{
-    
-}
 .button{
-    width: 160px;
+    width: 200px;
     height: 40px;
     border-radius: 8px;
     color: #ffffff;
-    background-color: black;
+    background-color: #121212;
+    border: #ffffff 1px solid;
+    font-size: 15px;
+    font-weight: 700;
+}
+.button:hover{
+    background-color: azure;
+    border: solid 3px azure;
+    color: #1a1919;
+    font-size: 15px;
+    font-weight: 700;
+    transition: 0.5s ease;
 }
